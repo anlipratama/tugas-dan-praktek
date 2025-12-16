@@ -1,0 +1,25 @@
+NAMA : ANLE DANIEL PRATAMA
+NIM : 241011400
+KELAS : 03TPLP023
+
+JAWAB
+
+1). 
+a. nama nama pointer sesuai nomor
+1. Q
+2. Q->LEFT
+3. NULL
+4. Q->RIGHT
+5. P
+6. P->RIGHT
+7. NULL
+8. P->LEFT
+
+b. Pointer yang nilainya sama:
+(2) dan (3) sama-sama NULL
+
+(6) dan (7) sama-sama NULL
+
+(4) dan (5) menunjuk ke node yang sama (node kedua)
+
+(8) dan (1) menunjuk ke node yang sama (node pertama)
