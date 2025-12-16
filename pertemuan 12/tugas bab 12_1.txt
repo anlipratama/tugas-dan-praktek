@@ -1,8 +1,3 @@
-NAMA : ANLE DANIEL PRATAMA
-NIM : 241011400
-KELAS : 03TPLP023
-
-JAWAB
 
 1). 
 a. nama nama pointer sesuai nomor
@@ -21,5 +16,6 @@ b. Pointer yang nilainya sama:
 (6) dan (7) sama-sama NULL
 
 (4) dan (5) menunjuk ke node yang sama (node kedua)
+
 
 (8) dan (1) menunjuk ke node yang sama (node pertama)
