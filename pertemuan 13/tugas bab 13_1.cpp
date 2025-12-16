@@ -171,7 +171,7 @@ int main() {
         cout << "2. HAPUS DATA\n";
         cout << "3. CETAK DATA\n";
         cout << "4. EXIT\n";
-        cout << "Pilihan (1 – 4): ";
+        cout << "Pilihan (1 â€“ 4): ";
         cin >> pilihan;
 
         switch (pilihan) {
