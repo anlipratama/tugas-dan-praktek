@@ -30,4 +30,5 @@ vi. if (R->LINK->INFO == 5)
 R->LINK->INFO = node(1100).INFO = 7 → 7 == 5 → FALSE
 
 vii. if (Q->INFO == 4)
+
 Q->INFO = 4 → TRUE
