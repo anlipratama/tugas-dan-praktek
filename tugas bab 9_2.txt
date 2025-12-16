@@ -1,0 +1,50 @@
+Algoritma untuk Menempatkan Pointer Q
+a. Q menunjuk simpul no (1)
+Artinya Q menunjuk node pertama (head dari linked list).
+Algoritma:
+
+Q ← FIRST
+
+Q langsung menunjuk node pertama (INFO = 1).
+
+b. Q menunjuk simpul no (7)
+Artinya Q berpindah dari simpul pertama ke simpul ketujuh.
+Algoritma:
+
+Q ← FIRST
+I ← 1
+WHILE (I < 7) DO
+    Q ← Q->LINK
+    I ← I + 1
+ENDWHILE
+Setelah perulangan ke-7, Q menunjuk node ke-7.
+
+c. Q menunjuk simpul terakhir (LAST)
+
+Langsung ditugaskan menunjuk node terakhir.
+Algoritma:
+
+Q ← LAST
+Q sekarang menunjuk node terakhir yang memiliki LINK = NULL.
+
+d. Q menunjuk simpul dengan nilai INFO = 50
+Pencarian berdasarkan nilai data (bukan urutan).
+Algoritma:
+
+Q ← FIRST
+WHILE (Q != NULL) AND (Q->INFO != 50) DO
+    Q ← Q->LINK
+ENDWHILE
+Jika INFO = 50 ditemukan, Q menunjuk node tersebut.
+Jika tidak ditemukan, maka Q = NULL.
+
+e. Q menunjuk simpul yang letaknya satu simpul di depan (sebelah kiri) simpul dengan INFO = 50
+
+Kita cari node sebelum node dengan INFO = 50.
+Algoritma:
+
+Q ← FIRST
+WHILE (Q->LINK != NULL) AND (Q->LINK->INFO != 50) DO
+    Q ← Q->LINK
+ENDWHILE
+Setelah loop, Q menunjuk node yang berada tepat di depan node dengan INFO = 50.
