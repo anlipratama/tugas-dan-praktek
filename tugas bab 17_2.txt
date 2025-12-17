@@ -1,0 +1,9 @@
+SOAL 2
+Kapan kasus terbaik (best case) Bubble Sort terjadi?
+
+Jawaban:
+Ketika elemen diurutkan dalam urutan menaik.
+
+Penjelasan:
+Jika data sudah terurut menaik, tidak terjadi proses pertukaran (swap),
+sehingga Bubble Sort dapat berhenti lebih cepat dan bekerja secara efisien.

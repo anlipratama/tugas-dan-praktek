@@ -1,0 +1,10 @@
+SOAL 1
+Apa kompleksitas waktu terbaik (best case) Bubble Sort?
+
+Jawaban:
+O(n)
+
+Penjelasan:
+Kompleksitas waktu terbaik Bubble Sort adalah O(n) jika menggunakan optimasi
+(flag / pengecekan swap). Hal ini terjadi karena pada kondisi data sudah
+terurut, Bubble Sort hanya melakukan satu kali perulangan tanpa pertukaran.
